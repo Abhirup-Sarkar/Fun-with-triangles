@@ -2,6 +2,7 @@ let angleOne = document.querySelector("#angle-1");
 let angleTwo = document.querySelector("#angle-2");
 let angleThree = document.querySelector("#angle-3");
 let triangleButton = document.querySelector("#triangle-button");
+let outputText = document.querySelector(".output-text")
 
 function calculateSumOfAngles(angleOne,angleTwo,angleThree){
     var angle1 = Number(angleOne.value);
@@ -15,11 +16,12 @@ function isTriangle(){
     var sumOfAngles = calculateSumOfAngles(angleOne,angleTwo,angleThree)
     console.log(sumOfAngles);
     if(sumOfAngles === 180){
-        console.log("Congrats! these angles form an triangle.");
+        outputText.innerText = "Congrats! These angles form a triangle";
     }
     else{
-        console.log("Oh no! these angles do not form an triangle.")
+        outputText.innerText ="Oh no! these angles do not form an triangle.";
     }
     
 } 
+
 triangleButton.addEventListener("click", isTriangle );
