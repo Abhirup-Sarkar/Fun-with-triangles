@@ -4,3 +4,8 @@ var thirdSideOfTriangle = document.querySelector("third-side");
 var calculateAreaButton = document.querySelector("#btn-area");
 var outputText = document.querySelector("#output-text");
 
+function calculateArea(){
+    
+}
+
+calculateAreaButton.addEventListener("click", calculateArea);
