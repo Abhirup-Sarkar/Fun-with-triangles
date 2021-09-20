@@ -13,7 +13,9 @@ function calculateArea(){
     console.log(semiPerimeter);
     //(firstSide + secondSide + thirdSide) = perimeter of the triangle
     var area = Math.sqrt(semiPerimeter*(semiPerimeter - firstSide)*(semiPerimeter - secondSide)*(semiPerimeter - thirdSide));
-    console.log(area);
+    var roundOffArea = area.toFixed(4);
+    console.log(roundOffArea);
+    outputText.innerHTML = "Area of the triangle using Heron's formula is "+roundOffArea+" units"
 
 
     
