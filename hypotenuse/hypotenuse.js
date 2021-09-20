@@ -7,8 +7,8 @@ function calculateHypotenuse(){
     var base = Number(baseOfTriangle.value);
     var height = Number(heightOfTriangle.value);
     console.log(base,height); 
-    var hypotenuse = Math.sqrt(((base**2) + (height**2)))
-    console.log(hypotenuse);
+    var hypotenuse = Math.sqrt(((base**2) + (height**2)));
+    outputText.innerHTML = "The length of the hypotenuse is "+hypotenuse;
 }
 
 calHypotenuseButton.addEventListener("click", calculateHypotenuse);
