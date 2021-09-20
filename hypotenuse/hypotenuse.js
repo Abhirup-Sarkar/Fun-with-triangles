@@ -4,6 +4,9 @@ var calHypotenuseButton = document.querySelector("#btnCalculateHypotenuse");
 var outputText = document.querySelector("#output-text");
 
 function calculateHypotenuse(){
+    var baseValue = Number(baseOfTriangle.value);
+    var heightValue = Number(heightOfTriangle.value);
+    console.log(baseValue,heightValue); 
     
 }
 
