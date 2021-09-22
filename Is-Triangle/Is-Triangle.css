@@ -64,7 +64,17 @@ label, input{
     font-weight: bold;
     font-size: 1.5rem;
 }
-
+button{
+    display: block;
+    width: 40%;
+    margin: 1rem 4.5rem 1rem 4.5rem;
+    padding: 1rem;
+    font-size:medium;
+    border-radius: 5px ;
+    
+    
+    
+}
 
 
 
