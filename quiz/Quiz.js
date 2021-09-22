@@ -1,13 +1,14 @@
-var answersOne = document.querySelectorAll("#answer-1");
-var answersTwo = document.querySelectorAll("#answers-2");
-var answersThree = document.querySelectorAll("#answers-3");
+var inputs = document.querySelectorAll(".quiz-form")
 
-var btnSubmitAnswers = document.querySelector("#submit-answers");
+var submitAnswersButton = document.querySelector("#submit-answers-btn")
 
 var outputText = document.querySelector("#output-text");
 
 function calculateScore(){
-    console.log("clicked");
+    let score = 0;
+    let index = 0;
+    var formResults = new FormData(quiz-form);
+    
 }
 
 btnSubmitAnswers.addEventListener("click", calculateScore )
