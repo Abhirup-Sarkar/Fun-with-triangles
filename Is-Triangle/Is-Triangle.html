@@ -1,42 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz on Triangles</title>
-    <link rel="stylesheet" href="/Is-Triangle.css">
+    <link rel="stylesheet" href="/Is-Triangle/Is-Triangle.css">
 </head>
+
 <body>
-    <nav class = "container_navigation">
-        <div class = "nav-brand">
+
+    <nav class="navigation">
+        <div class="nav-brand">
             Fun With Triangles
         </div>
-        <div class="nav-pills">
-            <ul>
-                <li class="nav-pills__links"><a class = "link" href = "index.html">Is it a Triangle</a></li>
-                <li class="nav-pills__links"><a class = "link" href = "/quiz/Quiz.html">Quiz</a></li>
-                <li class="nav-pills__links"><a class = "link" href = "/hypotenuse/hypotenuse.html">Hypotenuse</a></li>
-                <li class="nav-pills__links"><a class = "link" href = "/area-of-triangle/area-of-triangle.html">Area of Triangle</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-        <h1 class="hero-heading">Angles of Triangles</h1>
-        <label for = "angle-1">Angle 1: </label>
-        <input type="number" id="angle-1">
-        <label for = "angle-2">Angle 2: </label>
-        <input type="number" id="angle-2">
-        <label for = "angle-3">Angle 3: </label>
-        <input type="number" id="angle-3">
-        <button id="triangle-button">Is this a triangle?</button>
-        <div class = "output-text"></h2>
 
+        <ul class="nav-pills">
+            <li class="nav-pills_inline">
+                <a class="nav-pills_link" href="/Is-Triangle/Is-Triangle.html">Is it a Triangle</a>
+            </li>
+            <li class="nav-pills_inline">
+                <a class="nav-pills_link" href="/quiz/Quiz.html">Quiz</a>
+            </li>
+            <li class="nav-pills_inline">
+                <a class="nav-pills_link" href="/hypotenuse/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="nav-pills_inline">
+                <a class="nav-pills_link" href="/area-of-triangle/area-of-triangle.html">Area of Triangle</a>
+            </li>
+        </ul>
         
-    </div>
+    </nav>
+    <header>
+        <h1 class="hero-heading">Angles of Triangles</h1>
+    </header>
+    <div class="container">
+        <label for="angle-1">Angle 1: </label>
+        <input type="number" id="angle-1">
+        <label for="angle-2">Angle 2: </label>
+        <input type="number" id="angle-2">
+        <label for="angle-3">Angle 3: </label>
+        <input type="number" id="angle-3">
 
-    
-    
+        <button id="triangle-button">Is this a triangle?</button>
+        <div class="output-text">
+            </h2>
+
+
+     </div>
+
+
+
 </body>
-<script src="Is-Triangle.js" type = "text/javaScript"></script>
+<script src="Is-Triangle.js" type="text/javaScript"></script>
+
 </html>
