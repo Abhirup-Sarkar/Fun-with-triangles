@@ -4,37 +4,57 @@
 } 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.navigation{
-    width:100%;
-    height:15vh;
-    background-color: lightblue;  
+:root {
+    --primary-color: #4D4B81;
+    --secondary-color: #8EB8B3;
+    --background-color-one: #9B97C3;
 }
-.navigation .nav-brand {
-    display: inline;
-    margin: 3rem 1rem 0.5rem 0.5rem;
-    font-size: 1rem;
-    text-align: left;
-    
-}
-
-.navigation .nav-pills{
-    text-align: right;
-    margin: 3rem 1rem 0.5rem 0.5rem;
-}
- .nav-pills_inline{
-     list-style: none;
-     display: inline;
-     padding: 1rem;
-     margin: 1rem .5rem 1rem 1rem;
-       
-} 
-a{
-    text-decoration: none;
-    color:black;
-    
-}
-
 
 body{
     font-family: 'Roboto', sans-serif;  
+    background-color: white;
 }
+
+.navigation {
+    width: 100%;
+    height: 20vh;
+    background-color: var(--primary-color);
+
+}
+
+.navigation .nav-brand {
+    display: inline-block;
+
+    font-size: 1rem;
+    text-align: left;
+    color: var(--secondary-color);
+    font-size: 2rem;
+
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    margin: 3rem 1rem 0.5rem 0.5rem;
+}
+
+.nav-pills_inline {
+
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+    margin: 1rem .5rem 1rem 1rem;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+
+
