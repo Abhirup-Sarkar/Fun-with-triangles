@@ -124,7 +124,7 @@ button{
     width: 100%;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 .copyright-label{
     text-align: center;
@@ -135,15 +135,16 @@ button{
 }
 .container-footer{
     width: 100%;
-    color:blue;
+    color: var(--secondary-color);
+    /* padding: 1rem; */
 }
 
 .footer-pills_inline{
     list-style: none;
-     display: inline;
-     padding: 1rem;
-     margin: 1rem .5rem 1rem 2rem;
-     font-size: 1rem;
-     font-weight: bold;
+    display: inline;
+    padding: 1rem;
+    margin: 1rem .5rem 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
