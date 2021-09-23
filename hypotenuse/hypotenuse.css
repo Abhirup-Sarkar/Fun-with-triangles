@@ -63,9 +63,89 @@ header{
 .hero{
     
     padding:2rem 2rem 0rem 2rem;
-    margin: 2rem 0rem .5rem 0rem;
+    margin: 2rem 0rem 3rem 0rem;
     font-size: 2.5rem;
     color:var(--secondary-color);
+}
+.container {
+    width: 40%;
+    margin: auto;
+}
+
+/* input tags */
+input {
+    display: block;
+    width: 40%;
+    margin: auto;
+    padding: 0.5rem;
+    font-size: large;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    background-color: #E6E5F0;
+    border: 2px solid var(--secondary-color)
+}
+
+label {
+    display: block;
+    width: 60%;
+    margin:auto;
+    text-align: center;
+    
+    padding: 0.5rem;
+    font-size: large;
+    border-radius: 5px;
+    
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+
+}
+#base, #height{
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+    
+}
+button {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    font-size: large;
+    border-radius: 10px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    border: 2px solid var(--secondary-color);
+}
+#btnCalculateHypotenuse{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    
+}
+.formula{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    
+}
+.formulae{
+    margin-bottom: 1rem;
+}
+
+#output-text{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+    
 }
 
 
