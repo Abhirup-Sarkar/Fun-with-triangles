@@ -102,6 +102,6 @@ label,input{
     margin: 1rem;
     font-size: 1.1rem;
 }
-.submit-button{
-    width:20%;
+button{
+    margin:auto;
 }
