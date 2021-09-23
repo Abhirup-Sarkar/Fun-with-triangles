@@ -55,6 +55,44 @@ a{
     font-size: 1rem;
 
 }
+/* header*/
+header{
+    width: 100%;
+    text-align: center;
+}
+.hero{
+    
+    padding:2rem 2rem 0rem 2rem;
+    margin: 2rem 0rem .5rem 0rem;
+    font-size: 2.5rem;
+    color:var(--secondary-color);
+}
 
 
+
+/* Footer */
+.copyright-label {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.container-footer {
+    width: 100%;
+    color: var(--secondary-color);
+    text-align: center;
+
+}
+
+.footer-pills_inline {
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+    margin: 1rem .5rem 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
 
