@@ -72,8 +72,36 @@ header{
     padding: 1rem;
     font-size: 1.2rem;
 }
-/* container */
-/* .quiz-form{
-    width: 50%;
+/*container */
+.quiz-form{
+    width: 60%;
     margin: auto;
-} */
+    
+    
+}
+.questions-container{
+   padding: 1rem;
+   text-align: center;
+   
+    
+}
+.questions{
+    font-size: 1.1rem;
+    padding: 1rem;
+    text-align: center;
+}
+label,input{
+    font-size: 1.1rem;
+    padding: 1rem;
+    margin: 0.5rem .5rem 0.5rem 0.5rem;
+    
+}
+#output-text{
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+.submit-button{
+    width:20%;
+}

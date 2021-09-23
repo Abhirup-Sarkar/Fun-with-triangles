@@ -39,7 +39,7 @@
       
     <form class="quiz-form">
         <div class=questions-container>
-            <p>1. What is the third angle for a triangle where the other two angles are 45°?</p>
+            <p class ="questions" >1. What is the third angle for a triangle where the other two angles are 45°?</p>
 
             <label for="answer1">
                 <input type="radio" class="answer1" name="question1" value="45°">45°
@@ -56,7 +56,7 @@
         </div>
         
         <div class=questions-container>
-            <p>2. If a triangle has its sides equal to 5cm, 4cm and 6cm, what is its perimeter? </p>
+            <p class ="questions">2. If a triangle has its sides equal to 5cm, 4cm and 6cm, what is its perimeter? </p>
 
             <label for="answer2">
                 <input type="radio" class="answer2" name="question2" value="100cm">100cm
@@ -72,11 +72,11 @@
 
         </div>
         <div class=questions-container>
-            <p>3. If the height of a triangle is 7cm and base length is equal to 10 cm, then what is its area?</p>
+            <p class ="questions">3. If the height of a triangle is 7cm and base length is equal to 10 cm, then what is its area?</p>
 
             <label for="answer3">
                 <input type="radio" class="answer3" name="question3" value="17 square centimetres">17 square centimetres
-            </label>2
+            </label>
             <label for="answer3">
                 <input type="radio" class="answer3" name="question3" value="70 square centimetres">70 square centimetres
             </label>
@@ -88,7 +88,10 @@
         </div>
         
     </form>
-    <button id = "submit-answers-btn">Submit Answers</button>
+    <button id = "submit-answers-btn">
+        Submit Answers
+    </button>  
+    
     <p id = "output-text"> </p>  
 </body>
 <script type="text/javaScript" src="/quiz/Quiz.js"></script>
